@@ -1,0 +1,18 @@
+#lex_auth_0127136251125350401190
+
+def divisible_by_sum(number):
+    #start writing your code here  
+    sum=0 
+    num=number
+    while(number>0):
+        r=number%10 
+        sum=sum+r 
+        number=number//10 
+    if(num%sum==0):
+        return True 
+    else: 
+        return False
+
+    
+number=42
+print(divisible_by_sum(number))
