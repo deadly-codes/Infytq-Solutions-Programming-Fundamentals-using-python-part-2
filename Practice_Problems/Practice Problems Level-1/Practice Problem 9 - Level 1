@@ -1,0 +1,12 @@
+#lex_auth_0127135904626688001159
+
+def generate_dict(number):
+	#start writing your code here 
+	
+	square_dict = {n: n*n for n in range(1,number+1)}
+
+	
+	return square_dict
+
+number=20
+print(generate_dict(number))
