@@ -1,0 +1,17 @@
+#lex_auth_0127135857243832321154
+
+def seed_no(number,ref_no): 
+    m=number
+    while(number>0):
+        rem=number%10
+        m=m*rem
+        number=number//10 
+    if(m==ref_no):
+        return True 
+    else: 
+        return False
+    #start writing your code here
+    
+number=123
+ref_no=738
+print(seed_no(number,ref_no))
