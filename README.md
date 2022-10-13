@@ -1,2 +1,2 @@
 # Infytq_solutions
-Programming Fundamentals using python part 2
+Moldule - Programming Fundamentals using python part 2
