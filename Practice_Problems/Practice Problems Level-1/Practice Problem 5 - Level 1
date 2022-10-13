@@ -1,0 +1,18 @@
+#lex_auth_0127135838317445121147
+
+def count_digits_letters(sentence):
+    #start writing your code here 
+    count=0 
+    count1=0
+    for i in sentence: 
+        if(i.isdigit()):
+            count=count+1
+        elif(i.isalpha()):
+            count1=count1+1 
+    result_list=[count1,count]
+
+    
+    return result_list
+
+sentence="Infosys Mysore 570027"
+print(count_digits_letters(sentence))
