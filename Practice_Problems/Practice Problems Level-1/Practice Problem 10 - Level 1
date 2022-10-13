@@ -1,0 +1,13 @@
+#lex_auth_0127135945621340161163
+
+def string_both_ends(input_string): 
+    if (len(input_string)<2):
+        return -1 
+    else:
+        s=input_string[0:2]+input_string[-2:] 
+        return s
+        
+	#start writing your code here
+
+input_string="w3w"
+print(string_both_ends(input_string))
