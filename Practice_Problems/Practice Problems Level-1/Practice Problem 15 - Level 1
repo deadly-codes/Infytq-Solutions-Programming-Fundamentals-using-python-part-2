@@ -1,0 +1,14 @@
+#lex_auth_0127136075580375041172
+
+def check_22(num_list):  
+    flag=0
+    for i in range(1,len(num_list)):
+        if(num_list[i-1]==2 and num_list[i]==2):
+            flag=1
+    if flag:
+        return True 
+    else: 
+        return False
+    #start writing your code here
+        
+print(check_22([3,2,5,1,2,1,2,2]))
